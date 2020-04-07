@@ -153,7 +153,7 @@ img:hover {
 
 @media(min-width: 600px){
   
-  .moile-name-headline {
+  .mobile-name-headline {
    display: none;
    
 }
@@ -168,7 +168,7 @@ img:hover {
     
      }
   
-  .moile-name-headline {
+  .mobile-name-headline {
    font-family: proxima-nova, sans-serif;
    color: white;
    text-align: center;
