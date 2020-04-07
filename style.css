@@ -151,7 +151,7 @@ img:hover {
  transform: scale(3)
 }
 
-@media all and (min-width: 600px) {
+@media(min-width: 600px){
   
   .moile-name-headline {
    display: none;
@@ -159,7 +159,7 @@ img:hover {
 }
   }
 
-@media all and (max-width: 600px) {
+@media(max-width: 600px){
 
   .background-image {
     width: 100%;
