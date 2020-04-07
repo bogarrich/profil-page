@@ -1,0 +1,197 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  
+}
+
+
+
+.profile-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+.head {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+/* Big image left */
+
+
+.background-image {
+  background: url('assets/background.jpg');
+  background-size: cover;
+  background-position: 75% 25%;
+  background-repeat: no-repeat;
+  width:66.6667%;
+  position: fixed;
+  min-height: 100%;
+} 
+
+/* About */
+
+.about  {
+  padding: 0;
+  width: 33.3333%;
+  box-sizing: border-box;
+  flex-grow: 1;
+  flex-shrink: 1;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 0;
+  padding: 60px 60px;
+  max-width: 520px;
+  font-family: proxima-nova, sans-serif;
+}
+
+
+
+h1 { 
+  font-size: 30px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin: 0;
+  color: #333
+}
+
+h2 {
+  margin-top: 5px;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+p {
+  line-height: 150%;
+}
+
+/* Button */
+
+.button {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #305B90;
+  border-color: red;
+  border-radius: 5px;
+  padding: 15px 32px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+/* Portfolio and social icons */
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+ 
+}
+
+li {
+  display: inline;
+  text-align: left;
+}
+
+.social-icons {
+  color: #999;
+  font-size: 2em;
+}
+
+.social-icons:hover {
+  transform: scale(1.5);
+  }
+
+i {
+  padding-right: 0.5em;
+}
+
+i:hover {
+  transform: scale(1.5)
+}
+
+/* Portfolio*/
+
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10%;
+  padding: 3px;
+  background-color: #305B90;
+  transition: all 0.5s ease-in-out;
+  object-fit: cover;
+  object-position: 100% 50%;
+  
+}
+
+img:hover {
+ transform: scale(3)
+}
+
+@media all and (min-width: 600px) {
+  
+  .moile-name-headline {
+   display: none;
+   
+}
+  }
+
+@media all and (max-width: 600px) {
+
+  .background-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    
+     }
+  
+  .moile-name-headline {
+   font-family: proxima-nova, sans-serif;
+   color: white;
+   text-align: center;
+   margin-top: 400px;
+   
+}
+  h1 {
+    color: white;
+  }
+  
+  .about {
+    margin-top: 400px;
+    width: 100% ;
+    align-items: center;
+    
+  }
+  
+  .name-headline {
+    text-align: center;
+    margin-top: auto;
+    color: white;
+  }
+  
+ 
+  
+  }
