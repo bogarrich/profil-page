@@ -108,12 +108,13 @@ p {
 ul {
   list-style-type: none;
   padding-left: 0;
- 
+  
 }
 
 li {
   display: inline;
   text-align: left;
+  
 }
 
 .social-icons {
@@ -136,8 +137,8 @@ i:hover {
 /* Portfolio*/
 
 img {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   border-radius: 10%;
   padding: 3px;
   background-color: #305B90;
@@ -148,7 +149,7 @@ img {
 }
 
 img:hover {
- transform: scale(3)
+ transform: scale(1.5)
 }
 
 @media(min-width: 600px){
@@ -172,7 +173,7 @@ img:hover {
    font-family: proxima-nova, sans-serif;
    color: white;
    text-align: center;
-   margin-top: 400px;
+   margin-top: 550px;
    
 }
   h1 {
@@ -180,7 +181,7 @@ img:hover {
   }
   
   .about {
-    margin-top: 400px;
+    margin-top: 600px;
     width: 100% ;
     align-items: center;
     
@@ -192,6 +193,10 @@ img:hover {
     color: white;
   }
   
+  img {
+    width: 55px;
+    height:55px;
+  }
 }
   
   
